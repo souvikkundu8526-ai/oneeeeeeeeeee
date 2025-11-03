@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> Vertical Timeline </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="chat_bot.html">Commmunity</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">OneWeb</a></li>
+          <li class="hideOnMobile"><a href="index.html">Home</a></li>
+          <li class="hideOnMobile"><a href="service.html">Service</a></li>
+          <li class="hideOnMobile"><a href="about.html">About</a></li>
+          <li class="hideOnMobile"><a href="chat_bot.html">Commmunity</a></li>
+          <li class="hideOnMobile"><a href="contact.html">Contact</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+	  <script>
+        function showSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSidebar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
+	  <h1 class="course_intro">Here is your all apps web version</h1>
+	  <h2 class="course_intro">Click on the boxs, where you want to be eplore.</h2>
+	  <h1 class="course_intro">⬇️</h1>
+
+<section class="timeline-section">
+	<div class="timeline-items">
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-1</div>
+			<a class="courses" href="games/2048/index.html">
+				<div class="timeline-content">
+				<h3>2048</h3>
+				
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-2</div>
+			<a class="courses" href="games/065-hangman game/index.html">
+			<div class="timeline-content">
+				<h3>Hangman</h3>
+				
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-3</div>
+			<a class="courses" href="games/050-insect catch game/index.html">
+			<div class="timeline-content">
+				<h3>Catch the insects</h3>
+				
+			</div>
+			</a>
+		</div>
+		<div class="timeline-item">
+			<div class="timeline-dot"></div>
+			<div class="timeline-date">No-4</div>
+			<a class="courses" href="games/070-typing game/index.html">
+			<div class="timeline-content">
+				<h3>typing game</h3>
+				
+			</div>
+			</a>
+		</div>
+		
+		
+	</div>
+</section>
+
+</body>
+</html>
